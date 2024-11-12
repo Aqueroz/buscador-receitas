@@ -1,0 +1,77 @@
+body{
+    line-height: 1.6;
+    padding: 20px;
+    width: 800px;
+    margin: 25px auto;
+    border-radius: 18px;
+    box-shadow: 0 0 10px black;
+    color: #333;
+}
+
+nav{
+    box-shadow: 0 0 4px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+}
+.titulo{
+    font-size: 24px;
+}
+.busca-erro{
+    width: 500px;
+}
+
+.recipe-list{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    width: 100%;
+}
+
+.recipe-card{
+
+    width: 320px;
+    display: grid;
+
+    img{
+        width: 230px;
+        border-radius: 4px;
+        cursor: pointer;
+
+    }
+}
+
+.container-detalhes{
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 4px black;
+
+    h2{
+        text-align: center;
+    }
+}
+.imagem-texto{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+.imagem-detalhes{
+    padding:2px 8px;
+    width: 380px;
+}
+.texto-detalhes{
+    padding: 4px;
+    width: 60%;
+
+    h3{
+        text-align: center;
+    }
+
+}
+
+.origem-ingredientes{
+    display: flex;
+    justify-content: space-around;
+}
